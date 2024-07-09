@@ -7,6 +7,10 @@
     </head>
     <body>
         <div id="app">
+            <h1>{{greeting}}</h1>
+                <p v-if="showMessage">
+                    This message is displayed based on a boolean property.
+                </p>
             <input type="text" v-model="firstName" placeholder="First Name">
             <input type="text" v-model="lastName" placeholder="Last Name">
             <p>{{ fullName }}</p>
