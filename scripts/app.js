@@ -3,6 +3,11 @@ console.log('Vue scripts loaded');
 const app = Vue.createApp({
     data(){
         return{
+            greeting: 'Week 10 Lab'
+        };
+    }
+    data(){
+        return{
             firstName: '',
             lastName: '',
             quantity: 0,
